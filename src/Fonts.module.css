@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "dana-bold";
+  src: url("../public/fonts/dana-bold.woff2");
+}
+@font-face {
+  font-family: "IRANSansXFaNum-black";
+  src: url("../public/fonts/IRANSansXFaNum-black.woff");
+}
+@font-face {
+  font-family: "IRANSansXFaNum-bold";
+  src: url("../public/fonts/IRANSansXFaNum-bold.woff");
+}
+@font-face {
+  font-family: "IRANSansXFaNum-demibold";
+  src: url("../public/fonts/IRANSansXFaNum-demibold.woff");
+}
+@font-face {
+  font-family: "IRANSansXFaNum-extrabold";
+  src: url("../public/fonts/IRANSansXFaNum-extrabold.woff");
+}
+@font-face {
+  font-family: "IRANSansXFaNum-medium";
+  src: url("../public/fonts/IRANSansXFaNum-medium.woff");
+}
+@font-face {
+  font-family: "IRANSansXFaNum-regular";
+  src: url("../public/fonts/IRANSansXFaNum-regular.woff");
+}
+@font-face {
+  font-family: "woodmart-font";
+  src: url("../public/fonts/woodmart-font-1-400.woff2");
+}
