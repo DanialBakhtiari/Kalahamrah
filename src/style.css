@@ -32,3 +32,9 @@
   --font-IRANSansXFaNum-regular: "IRANSansXFaNum-regular";
   --font-woodmart-font: "woodmart-font";
 }
+
+@layer utilities {
+  .flex-center {
+    @apply flex justify-center items-center
+  }
+}
