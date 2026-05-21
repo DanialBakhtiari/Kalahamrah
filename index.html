@@ -238,16 +238,66 @@
                 </svg>
               </div>
               <div class="w-fit h-fit flex flex-col">
-                  <a class="text-sm text-primary/80 transition-all duration-300 hover:text-primary" href="tel:+989121236547">09121236547</a>
-                  <a class="text-sm text-primary/80 transition-all duration-300 hover:text-primary" href="tel:+989126548547">09126548547</a>
+                <a
+                  class="text-sm text-primary/80 transition-all duration-300 hover:text-primary"
+                  href="tel:+989121236547"
+                  >09121236547</a
+                >
+                <a
+                  class="text-sm text-primary/80 transition-all duration-300 hover:text-primary"
+                  href="tel:+989126548547"
+                  >09126548547</a
+                >
               </div>
             </div>
           </div>
         </nav>
       </header>
+      <!-- HeroSecion Start -->
+      <div class="w-full h-82 flex-center gap-x-5 my-10">
+        <div class="w-7/10 h-full rounded-lg overflow-hidden">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./public/images/slider-one/AMD-Gaming-CPUs-Banner.webp" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./public/images/slider-one/ASUS-Mainboards-800-intel-series-Banner.webp" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./public/images/slider-one/DeepCool-Liquid-fans-Banner.webp" />
+              </div>
+            </div>
+            <div class="rotate-90 swiper-button-next">
+              <svg class="w-10 h-10 text-pink-600">
+                <use href="#chevron"></use>
+              </svg>
+            </div>
+            <div class="-rotate-90 swiper-button-prev">
+              <svg class="w-10 h-10 text-pink-600">
+                <use href="#chevron"></use>
+              </svg>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <div class="w-3/10 h-full flex flex-col justify-between items-center ">
+          <div class="w-full h-[48%] rounded-lg overflow-hidden">
+            <img src="./public/images/slider-one/Assembled-Systems-Banner.webp" class="w-full h-full object-cover" alt="">
+          </div>
+          <div class="w-full h-[48%] rounded-lg overflow-hidden">
+            <img src="./public/images/slider-one/Gaming-Monitors-Banner.webp" class="w-full h-full object-cover" alt="">
+          </div>
+        </div>
+      </div>
+     
+  
+      <!-- HeroSecion End -->
     </div>
 
     <script src="./node_modules/preline/dist/preline.js"></script>
     <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
+    <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
+    <script src="./src/js/app.js"></script>
   </body>
 </html>
