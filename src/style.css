@@ -6,6 +6,7 @@
 @plugin "flowbite/plugin";
 @source "../node_modules/flowbite/*.js";
 @import "../node_modules/flowbite//src//themes//default.css";
+@import "../node_modules/swiper/swiper-bundle.min.css";
 @custom-variant dark (&:where(.dark, .dark *));
 /* Adds pointer cursor to buttons */
 @layer base {
@@ -35,6 +36,16 @@
 
 @layer utilities {
   .flex-center {
-    @apply flex justify-center items-center
+    @apply flex justify-center items-center;
+  }
+
+  .swiper {
+    @apply w-full h-full;
+    .swiper-slide {
+      @apply w-full h-full flex justify-center items-center;
+      img {
+        @apply block w-full h-full object-cover;
+      }
+    }
   }
 }
