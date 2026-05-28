@@ -15,3 +15,17 @@ const swiper = new Swiper(".mySwiper", {
     prevEl: ".swiper-button-prev",
   },
 });
+const swiperOne = new Swiper(".mySwiperOne", {
+  slidesPerView: 10,
+  spaceBetween: 5,
+  loop: true,
+});
+const swiperTwo = new Swiper(".mySwiperTwo", {
+  slidesPerView: 2,
+  spaceBetween: 5,
+  loop: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});

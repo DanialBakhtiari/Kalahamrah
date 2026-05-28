@@ -24,6 +24,7 @@
 
 @theme {
   --color-primary: rgb(130, 36, 227);
+  --color-btn-hover: #5C23E0;
   --font-dana-bold: "dana-bold";
   --font-IRANSansXFaNum-black: "IRANSansXFaNum-black";
   --font-IRANSansXFaNum-bold: "IRANSansXFaNum-bold";
@@ -42,10 +43,15 @@
   .swiper {
     @apply w-full h-full;
     .swiper-slide {
-      @apply w-full h-full flex justify-center items-center;
+      @apply w-full h-full flex justify-center items-center select-none;
       img {
         @apply block w-full h-full object-cover;
       }
     }
+  }
+}
+@layer components {
+  .bg-best-gamming-system {
+    @apply bg-[url('../public/images/bestGamming/Gaming-Systems-Background.webp')] bg-fixed bg-center bg-no-repeat bg-cover;
   }
 }
