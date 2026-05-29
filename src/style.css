@@ -54,4 +54,7 @@
   .bg-best-gamming-system {
     @apply bg-[url('../public/images/bestGamming/Gaming-Systems-Background.webp')] bg-fixed bg-center bg-no-repeat bg-cover;
   }
+  .bg-gradinet-primary {
+    background-image: linear-gradient(180deg, #E006ED 0%, #3640E3 100%);
+  }
 }
